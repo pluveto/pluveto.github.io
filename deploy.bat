@@ -17,7 +17,7 @@ echo "Updating gh-pages branch"
 
 git add ./public && git commit -m "Publishing to gh-pages"
 
-git subtree push --prefix ./public origin gh-pages
+git subtree push --prefix public origin gh-pages
 
 echo "Finished!"
 pause >nul
